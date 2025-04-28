@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "vIAAZFEUxkZcuKLzFnnZeUjy877BKVohhCHqNN6Anfo=",
+  "Source": "MangaBackend.Api",
+  "BasePath": "_content/MangaBackend.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
