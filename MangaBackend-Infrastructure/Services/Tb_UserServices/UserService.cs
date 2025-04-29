@@ -50,11 +50,18 @@ namespace MangaBackend.Infrastructure.Services.Tb_UserServices
             {
                 dto.CreatedAt = DateTime.UtcNow;
                 dto.Role ??= "User";
-                if (string.IsNullOrWhiteSpace(dto.Id) || dto.Id == "string")
+
+                if (string.IsNullOrEmpty(dto.Id) || dto.Id == "string")
                 {
-                    dto.Id = null; 
+                    dto.Id = MongoDB.Bson.ObjectId.GenerateNewId().ToString(); 
                 }
-                
+
+               
+                if (_mongo.Exists(dto.Id, dto.Email, dto.Username))
+                {
+                    return ResponseData.NotSuccessResponse("Id, Email or Username already exists.");
+                }
+
                 _mongo.Add(dto);
                 return ResponseData.SaveResponse("User created successfully");
             }
@@ -63,6 +70,7 @@ namespace MangaBackend.Infrastructure.Services.Tb_UserServices
                 return ResponseData.ErrorResponse("Error creating user", ex.Message);
             }
         }
+
 
         public ResponseModel UpdateUser(string id, UserDto dto)
         {

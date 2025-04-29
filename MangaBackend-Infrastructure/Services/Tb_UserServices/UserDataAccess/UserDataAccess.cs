@@ -33,5 +33,14 @@ namespace MangaBackend.Infrastructure.Data
             var result = _users.DeleteOne(x => x.Id == id);
             return result.DeletedCount > 0;
         }
+      
+        public bool Exists(string? id, string email, string username)
+        {
+            return _users.Find(u =>
+                (id != null && u.Id == id) ||
+                u.Email.ToLower() == email.ToLower() ||
+                u.Username.ToLower() == username.ToLower()
+            ).Any();
+        }
     }
 }
