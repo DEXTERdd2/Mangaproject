@@ -8,7 +8,7 @@ namespace MangaBackend.Infrastructure.Auth.JWT
 {
     public class JwtTokenHelper
     {
-        public static string GenerateToken(string email, long userId, string role,  string secretKey)
+        public static string GenerateToken(string email, string userId, string role, string secretKey)
         {
             if (string.IsNullOrEmpty(secretKey) || secretKey.Length < 16)
                 throw new ArgumentException("Secret key is invalid. Minimum 16 characters.");
