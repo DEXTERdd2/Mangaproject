@@ -13,18 +13,19 @@ D:\MangaBackend\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.D
 D:\MangaBackend\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\refint\MangaBackend.Domain.dll
 D:\MangaBackend\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.pdb
 D:\MangaBackend\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\ref\MangaBackend.Domain.dll
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\bin\Debug\net9.0\MangaBackend.Domain.deps.json
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\bin\Debug\net9.0\MangaBackend.Domain.dll
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\bin\Debug\net9.0\MangaBackend.Domain.pdb
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\bin\Debug\net9.0\MangaBackend.Application.dll
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\bin\Debug\net9.0\MangaBackend.Application.pdb
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.csproj.AssemblyReference.cache
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.AssemblyInfoInputs.cache
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.AssemblyInfo.cs
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.csproj.CoreCompileInputs.cache
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\MangaBac.932243EA.Up2Date
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.dll
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\refint\MangaBackend.Domain.dll
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.pdb
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend.Domain\obj\Debug\net9.0\ref\MangaBackend.Domain.dll
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\bin\Debug\net9.0\MangaBackend.Domain.deps.json
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\bin\Debug\net9.0\MangaBackend.Domain.dll
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\bin\Debug\net9.0\MangaBackend.Domain.pdb
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\bin\Debug\net9.0\MangaBackend.Application.dll
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\bin\Debug\net9.0\MangaBackend.Application.pdb
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.csproj.AssemblyReference.cache
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.AssemblyInfoInputs.cache
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.AssemblyInfo.cs
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.csproj.CoreCompileInputs.cache
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.sourcelink.json
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\obj\Debug\net9.0\MangaBac.932243EA.Up2Date
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.dll
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\obj\Debug\net9.0\refint\MangaBackend.Domain.dll
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\obj\Debug\net9.0\MangaBackend.Domain.pdb
+D:\mangabackend privus\Mangaproject\MangaBackend.Domain\obj\Debug\net9.0\ref\MangaBackend.Domain.dll

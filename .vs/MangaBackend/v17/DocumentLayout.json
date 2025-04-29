@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A329CC15-66F8-40AB-9FFB-A8CBF85F184C}|MangaBackend-Infrastructure\\MangaBackend.Infrastructure.csproj|c:\\users\\faiza\\onedrive\\desktop\\mangabackend\\mangabackend-infrastructure\\data\\mongoconnectiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A329CC15-66F8-40AB-9FFB-A8CBF85F184C}|MangaBackend-Infrastructure\\MangaBackend.Infrastructure.csproj|solutionrelative:mangabackend-infrastructure\\data\\mongoconnectiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3EE5BDA1-6905-43D3-ACBA-DF5305DEDF10}|MangaBackend\\MangaBackend.Api.csproj|c:\\users\\faiza\\onedrive\\desktop\\mangabackend\\mangabackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3EE5BDA1-6905-43D3-ACBA-DF5305DEDF10}|MangaBackend\\MangaBackend.Api.csproj|solutionrelative:mangabackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE5BDA1-6905-43D3-ACBA-DF5305DEDF10}|MangaBackend\\MangaBackend.Api.csproj|c:\\users\\faiza\\onedrive\\desktop\\mangabackend\\mangabackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE5BDA1-6905-43D3-ACBA-DF5305DEDF10}|MangaBackend\\MangaBackend.Api.csproj|solutionrelative:mangabackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend.Domain\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MangaBackend.Domain\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend.Domain\\obj\\Release\\net9.0\\MangaBackend.Domain.GlobalUsings.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MangaBackend.Domain\\obj\\Release\\net9.0\\MangaBackend.Domain.GlobalUsings.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A329CC15-66F8-40AB-9FFB-A8CBF85F184C}|MangaBackend-Infrastructure\\MangaBackend.Infrastructure.csproj|c:\\users\\faiza\\onedrive\\desktop\\mangabackend\\mangabackend-infrastructure\\data\\mongoconnectiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A329CC15-66F8-40AB-9FFB-A8CBF85F184C}|MangaBackend-Infrastructure\\MangaBackend.Infrastructure.csproj|solutionrelative:mangabackend-infrastructure\\data\\mongoconnectiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EE5BDA1-6905-43D3-ACBA-DF5305DEDF10}|MangaBackend\\MangaBackend.Api.csproj|c:\\users\\faiza\\onedrive\\desktop\\mangabackend\\mangabackend\\controllers\\testmongocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{A329CC15-66F8-40AB-9FFB-A8CBF85F184C}|MangaBackend-Infrastructure\\MangaBackend.Infrastructure.csproj|solutionrelative:mangabackend-infrastructure\\services\\tb_userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EE5BDA1-6905-43D3-ACBA-DF5305DEDF10}|MangaBackend\\MangaBackend.Api.csproj|c:\\users\\faiza\\onedrive\\desktop\\mangabackend\\mangabackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EE5BDA1-6905-43D3-ACBA-DF5305DEDF10}|MangaBackend\\MangaBackend.Api.csproj|solutionrelative:mangabackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3EE5BDA1-6905-43D3-ACBA-DF5305DEDF10}|MangaBackend\\MangaBackend.Api.csproj|c:\\users\\faiza\\onedrive\\desktop\\mangabackend\\mangabackend\\controllers\\tb_usercontroller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EE5BDA1-6905-43D3-ACBA-DF5305DEDF10}|MangaBackend\\MangaBackend.Api.csproj|solutionrelative:mangabackend\\controllers\\tb_usercontroller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -85,12 +93,38 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend.Domain\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "MangaBackend.Domain\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend.Domain\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "MangaBackend.Domain\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:31:28.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MangaBackend.Domain.GlobalUsings.g.cs",
+              "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend.Domain\\obj\\Release\\net9.0\\MangaBackend.Domain.GlobalUsings.g.cs",
+              "RelativeDocumentMoniker": "MangaBackend.Domain\\obj\\Release\\net9.0\\MangaBackend.Domain.GlobalUsings.g.cs",
+              "ToolTip": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend.Domain\\obj\\Release\\net9.0\\MangaBackend.Domain.GlobalUsings.g.cs",
+              "RelativeToolTip": "MangaBackend.Domain\\obj\\Release\\net9.0\\MangaBackend.Domain.GlobalUsings.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:31:20.708Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TestMongoController.cs",
               "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend\\Controllers\\TestMongoController.cs",
               "RelativeDocumentMoniker": "MangaBackend\\Controllers\\TestMongoController.cs",
@@ -98,12 +132,11 @@
               "RelativeToolTip": "MangaBackend\\Controllers\\TestMongoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T06:03:28.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T06:03:28.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MongoConnectionTest.cs",
               "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend-Infrastructure\\Data\\MongoConnectionTest.cs",
               "RelativeDocumentMoniker": "MangaBackend-Infrastructure\\Data\\MongoConnectionTest.cs",
@@ -111,12 +144,11 @@
               "RelativeToolTip": "MangaBackend-Infrastructure\\Data\\MongoConnectionTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T06:01:48.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T06:01:48.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MongoDbSettings.cs",
               "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend-Infrastructure\\MongoConfiguration\\MongoDbSettings.cs",
               "RelativeDocumentMoniker": "MangaBackend-Infrastructure\\MongoConfiguration\\MongoDbSettings.cs",
@@ -128,20 +160,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend\\appsettings.json",
               "RelativeDocumentMoniker": "MangaBackend\\appsettings.json",
               "ToolTip": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend\\appsettings.json",
               "RelativeToolTip": "MangaBackend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-23T05:47:01.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "JwtTokenHelper.cs",
               "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend-Infrastructure\\Auth\\JWT\\JwtTokenHelper.cs",
               "RelativeDocumentMoniker": "MangaBackend-Infrastructure\\Auth\\JWT\\JwtTokenHelper.cs",
@@ -153,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend\\Controllers\\Tb_UserController\\UserController.cs",
               "RelativeDocumentMoniker": "MangaBackend\\Controllers\\Tb_UserController\\UserController.cs",
@@ -165,19 +197,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend\\Program.cs",
               "RelativeDocumentMoniker": "MangaBackend\\Program.cs",
               "ToolTip": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend\\Program.cs",
               "RelativeToolTip": "MangaBackend\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:34:04.488Z"
+              "WhenOpened": "2025-04-22T06:34:04.488Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "UserDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend-Infrastructure\\Services\\Tb_UserServices\\UserDataAccess\\UserDataAccess.cs",
               "RelativeDocumentMoniker": "MangaBackend-Infrastructure\\Services\\Tb_UserServices\\UserDataAccess\\UserDataAccess.cs",
@@ -189,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend-Application\\DTOS\\Tb_UserDtos\\UserDto.cs",
               "RelativeDocumentMoniker": "MangaBackend-Application\\DTOS\\Tb_UserDtos\\UserDto.cs",
@@ -201,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Tb_User.cs",
               "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend.Domain\\Entities\\Tb_User.cs",
               "RelativeDocumentMoniker": "MangaBackend.Domain\\Entities\\Tb_User.cs",
@@ -209,12 +242,11 @@
               "RelativeToolTip": "MangaBackend.Domain\\Entities\\Tb_User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T07:08:33.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T07:08:33.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "JWTSettings.cs",
               "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend-Infrastructure\\Auth\\JWT\\JWTSettings.cs",
               "RelativeDocumentMoniker": "MangaBackend-Infrastructure\\Auth\\JWT\\JWTSettings.cs",
@@ -226,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend-Infrastructure\\Services\\Tb_UserServices\\UserService.cs",
               "RelativeDocumentMoniker": "MangaBackend-Infrastructure\\Services\\Tb_UserServices\\UserService.cs",
@@ -238,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\faiza\\OneDrive\\Desktop\\MangaBackend\\MangaBackend.Domain\\Interfaces\\ITb_UserService\\IUserService.cs",
               "RelativeDocumentMoniker": "MangaBackend.Domain\\Interfaces\\ITb_UserService\\IUserService.cs",

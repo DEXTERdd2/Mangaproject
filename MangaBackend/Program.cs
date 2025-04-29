@@ -10,6 +10,9 @@ using System.Text;
 using MongoDB.Driver;
 using MangaBackend_Infrastructure.MongoConfrguration;
 using MangaBackend.Infrastructure.Services.Tb_UserServices;
+using MangaBackend.Domain.Interfaces.IAuthService;
+using MangaBackend.Infrastructure.Services;
+using MangaBackend_Infrastructure.CorsConfiguration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -65,6 +68,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     });
 
 builder.Services.AddAuthorization();
+builder.Services.AddCorsPolicies();
 
 
 // Register MongoDB access layer
@@ -72,11 +76,14 @@ builder.Services.AddScoped<MongoUserAccess>();
 
 // Register service layer
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddSingleton<MongoConnectionTest>();
 
 var app = builder.Build();
 
 // ? Middleware
+//app.UseCors("defaultPolicy");
+app.UseCors("AllowSpecificOrigin");
 app.UseSwagger();
 app.UseSwaggerUI();
 

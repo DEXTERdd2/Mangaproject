@@ -10,15 +10,16 @@ D:\MangaBackend\MangaBackend\MangaBackend-Application\obj\Debug\net9.0\refint\Ma
 D:\MangaBackend\MangaBackend\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.pdb
 D:\MangaBackend\MangaBackend\MangaBackend-Application\obj\Debug\net9.0\ref\MangaBackend.Application.dll
 D:\MangaBackend\MangaBackend\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.csproj.AssemblyReference.cache
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend-Application\bin\Debug\net9.0\MangaBackend.Application.deps.json
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend-Application\bin\Debug\net9.0\MangaBackend.Application.dll
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend-Application\bin\Debug\net9.0\MangaBackend.Application.pdb
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.csproj.AssemblyReference.cache
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.AssemblyInfoInputs.cache
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.AssemblyInfo.cs
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.csproj.CoreCompileInputs.cache
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.dll
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend-Application\obj\Debug\net9.0\refint\MangaBackend.Application.dll
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.pdb
-C:\Users\faiza\OneDrive\Desktop\MangaBackend\MangaBackend-Application\obj\Debug\net9.0\ref\MangaBackend.Application.dll
+D:\mangabackend privus\Mangaproject\MangaBackend-Application\bin\Debug\net9.0\MangaBackend.Application.deps.json
+D:\mangabackend privus\Mangaproject\MangaBackend-Application\bin\Debug\net9.0\MangaBackend.Application.dll
+D:\mangabackend privus\Mangaproject\MangaBackend-Application\bin\Debug\net9.0\MangaBackend.Application.pdb
+D:\mangabackend privus\Mangaproject\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.csproj.AssemblyReference.cache
+D:\mangabackend privus\Mangaproject\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\mangabackend privus\Mangaproject\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.AssemblyInfoInputs.cache
+D:\mangabackend privus\Mangaproject\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.AssemblyInfo.cs
+D:\mangabackend privus\Mangaproject\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.csproj.CoreCompileInputs.cache
+D:\mangabackend privus\Mangaproject\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.sourcelink.json
+D:\mangabackend privus\Mangaproject\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.dll
+D:\mangabackend privus\Mangaproject\MangaBackend-Application\obj\Debug\net9.0\refint\MangaBackend.Application.dll
+D:\mangabackend privus\Mangaproject\MangaBackend-Application\obj\Debug\net9.0\MangaBackend.Application.pdb
+D:\mangabackend privus\Mangaproject\MangaBackend-Application\obj\Debug\net9.0\ref\MangaBackend.Application.dll
