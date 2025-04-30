@@ -17,6 +17,7 @@ namespace MangaBackend.API.Controllers
             _authService = authService;
         }
         [HttpPost("login")]
+       
         public IActionResult Login([FromForm] LoginRequest request)
         {
             try

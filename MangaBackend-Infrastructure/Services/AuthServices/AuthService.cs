@@ -36,38 +36,33 @@ namespace MangaBackend.Infrastructure.Services
         {
             try
             {
-                if ((string.IsNullOrEmpty(request.Email) && string.IsNullOrEmpty(request.Username)) || string.IsNullOrEmpty(request.Password))
+                if (string.IsNullOrWhiteSpace(request.usernameOrEmail) || string.IsNullOrWhiteSpace(request.password))
                 {
-                    return ResponseData.NotSuccessResponse("Username or Email and Password are required.");
+                    return ResponseData.NotSuccessResponse("Username/Email and Password are required.");
                 }
 
                 Tb_User user = null;
 
-                if (!string.IsNullOrEmpty(request.Email) && request.Email != "string")
+                // If it looks like an email, search by email
+                if (request.usernameOrEmail.Contains("@"))
                 {
-                    user = _users.Find(u => u.Email.ToLower() == request.Email.ToLower()).FirstOrDefault();
+                    user = _users.Find(u => u.Email.ToLower() == request.usernameOrEmail.ToLower()).FirstOrDefault();
+                }
+                else // Otherwise search by username
+                {
+                    user = _users.Find(u => u.Username.ToLower() == request.usernameOrEmail.ToLower()).FirstOrDefault();
                 }
 
-                if (user == null && !string.IsNullOrEmpty(request.Username) && request.Username != "string")
+                if (user == null || user.Password.Trim() != request.password.Trim())
                 {
-                    user = _users.Find(u => u.Username.ToLower() == request.Username.ToLower()).FirstOrDefault();
-                }
-
-                if (user == null)
-                {
-                    return ResponseData.NotSuccessResponse("Invalid email/username or password.");
-                }
-
-                if (user.Password.Trim() != request.Password.Trim())
-                {
-                    return ResponseData.NotSuccessResponse("Invalid email/username or password.");
+                    return ResponseData.NotSuccessResponse("Invalid username/email or password.");
                 }
 
                 var token = JwtTokenHelper.GenerateToken(
-                username: user.Username ?? string.Empty,
-                role: user.Role ?? "user",
-                secretKey: _secretKey
-                 );
+                    username: user.Username ?? string.Empty,
+                    role: user.Role ?? "user",
+                    secretKey: _secretKey
+                );
 
                 var loginResponse = new LoginResponse
                 {
@@ -89,13 +84,14 @@ namespace MangaBackend.Infrastructure.Services
             }
             catch (Exception ex)
             {
-                var errorResponse = ResponseData.ErrorResponse(string.Empty, ex.Message);
+                var errorResponse = ResponseData.ErrorResponse("Login failed", ex.Message);
                 errorResponse.Success = false;
                 errorResponse.IsError = true;
                 errorResponse.statusCode = 500;
                 return errorResponse;
             }
         }
+
 
 
 
