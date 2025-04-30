@@ -44,7 +44,7 @@ namespace MangaBackend.Api.Controllers.Tb_UserController
         }
 
         [HttpPost]
-        public IActionResult Create([FromBody] UserDto dto)
+        public IActionResult Create([FromForm] UserDto dto)
         {
             if (!ModelState.IsValid)
                 return BadRequest("Invalid data");
@@ -59,6 +59,7 @@ namespace MangaBackend.Api.Controllers.Tb_UserController
                 return StatusCode(500, new { Message = "An unexpected error occurred", Exception = ex.Message });
             }
         }
+
 
         [HttpPut("{id}")]
         public IActionResult Update(string id, [FromBody] UserDto dto)

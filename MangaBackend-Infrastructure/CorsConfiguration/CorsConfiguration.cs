@@ -15,7 +15,7 @@ namespace MangaBackend_Infrastructure.CorsConfiguration
             {
                 options.AddPolicy("AllowSpecificOrigin", builder =>
                 {
-                    builder.WithOrigins("") // your React app's origin
+                    builder.WithOrigins("http://localhost:3000") // your React app's origin
                            .AllowAnyHeader()
                            .AllowAnyMethod()
                            .AllowCredentials();
