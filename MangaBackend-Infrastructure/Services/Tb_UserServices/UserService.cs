@@ -49,7 +49,9 @@ namespace MangaBackend.Infrastructure.Services.Tb_UserServices
             try
             {
                 dto.CreatedAt = DateTime.UtcNow;
-                dto.Role ??= "User";
+                dto.Role = string.IsNullOrWhiteSpace(dto.Role) || dto.Role == "string"
+                ? "User"
+                : dto.Role;
 
                 if (string.IsNullOrEmpty(dto.Id) || dto.Id == "string")
                 {

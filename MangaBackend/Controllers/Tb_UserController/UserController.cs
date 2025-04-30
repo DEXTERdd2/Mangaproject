@@ -1,5 +1,6 @@
 ﻿using MangaBackend.Domain.Interfaces.ITb_UserService;
 using MangaBackend_Application.DTOS.Tb_UserDtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MangaBackend.Api.Controllers.Tb_UserController
@@ -16,6 +17,7 @@ namespace MangaBackend.Api.Controllers.Tb_UserController
         }
 
         [HttpGet]
+      
         public IActionResult GetAll()
         {
             try

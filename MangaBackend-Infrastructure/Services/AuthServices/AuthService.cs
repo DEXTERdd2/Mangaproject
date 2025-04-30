@@ -64,11 +64,10 @@ namespace MangaBackend.Infrastructure.Services
                 }
 
                 var token = JwtTokenHelper.GenerateToken(
-                    user.Email ?? string.Empty,
-                    user.Id ?? string.Empty,
-                    user.Role,
-                    _secretKey
-                );
+                username: user.Username ?? string.Empty,
+                role: user.Role ?? "user",
+                secretKey: _secretKey
+                 );
 
                 var loginResponse = new LoginResponse
                 {
