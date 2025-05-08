@@ -13,6 +13,10 @@ using MangaBackend.Infrastructure.Services.Tb_UserServices;
 using MangaBackend.Domain.Interfaces.IAuthService;
 using MangaBackend.Infrastructure.Services;
 using MangaBackend_Infrastructure.CorsConfiguration;
+using MangaBackend.Domain.Interfaces.ITb_CommentService;
+using MangaBackend_Infrastructure.Services.Tb_CommentService;
+using MangaBackend.Domain.Interfaces.IMangaService;
+using MangaBackend_Infrastructure.Services.MangaService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -111,6 +115,8 @@ builder.Services.AddScoped<MongoUserAccess>();
 // Register service layer
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<ICommentService, CommentService>();
+builder.Services.AddScoped<IMangaService, MangaService>();
 builder.Services.AddSingleton<MongoConnectionTest>();
 
 var app = builder.Build();

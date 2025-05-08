@@ -45,7 +45,7 @@ namespace MangaBackend.Api.Controllers.Tb_UserController
             }
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         public IActionResult Create([FromForm] UserDto dto)
         {
             if (!ModelState.IsValid)
@@ -93,6 +93,32 @@ namespace MangaBackend.Api.Controllers.Tb_UserController
                 return StatusCode(500, new { Message = "An unexpected error occurred", Exception = ex.Message });
             }
         }
+
+        [HttpPost("forget-password")]
+        public IActionResult ForgetPassword([FromForm] string email, [FromForm] string recoveryCode)
+        {
+            try
+            {
+                var user = _service.GetUserByRecoveryCode(email, recoveryCode);
+
+                if (user == null)
+                {
+                    return BadRequest(new { Message = "Invalid recovery code or email." });
+                }
+
+                // 👇 Password ko return kar rahe hain (Sirf testing/demo ke liye)
+                return Ok(new
+                {
+                    Message = "Recovery code matched successfully.",
+                    OldPassword = user.Password
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = "An unexpected error occurred", Exception = ex.Message });
+            }
+        }
+
     }
 }
 

@@ -11,5 +11,6 @@ namespace MangaBackend.Domain.Interfaces.ITb_UserService
         ResponseModel AddUser(UserDto dto);
         ResponseModel UpdateUser(string id, UserDto dto);
         ResponseModel DeleteUser(string id);
+        UserDto? GetUserByRecoveryCode(string email, string recoveryCode);
     }
 }

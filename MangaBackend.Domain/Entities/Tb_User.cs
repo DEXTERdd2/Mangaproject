@@ -24,6 +24,9 @@ namespace MangaBackend.Domain.Entities
 
         public string Role { get; set; } = "User";
 
+        public string? RecoveryCode1 { get; set; }
+        public string? RecoveryCode2 { get; set; }
+
         [BsonDateTimeOptions(Kind = DateTimeKind.Utc)]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 

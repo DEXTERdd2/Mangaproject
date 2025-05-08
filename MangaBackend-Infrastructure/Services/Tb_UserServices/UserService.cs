@@ -64,13 +64,30 @@ namespace MangaBackend.Infrastructure.Services.Tb_UserServices
                     return ResponseData.NotSuccessResponse("Id, Email or Username already exists.");
                 }
 
+                // 🔥 Recovery Codes generate kar rahe hain:
+                dto.RecoveryCode1 = GenerateRecoveryCode();
+                dto.RecoveryCode2 = GenerateRecoveryCode();
+
                 _mongo.Add(dto);
-                return ResponseData.SaveResponse("User created successfully");
+                return ResponseData.SaveResponse(new
+                {
+                    Message = "User created successfully",
+                    RecoveryCode1 = dto.RecoveryCode1,
+                    RecoveryCode2 = dto.RecoveryCode2
+                });
             }
             catch (Exception ex)
             {
                 return ResponseData.ErrorResponse("Error creating user", ex.Message);
             }
+        }
+
+        private string GenerateRecoveryCode(int length = 8)
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            var random = new Random();
+            return new string(Enumerable.Repeat(chars, length)
+                .Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
 
@@ -102,6 +119,14 @@ namespace MangaBackend.Infrastructure.Services.Tb_UserServices
             {
                 return ResponseData.ErrorResponse("Error deleting user", ex.Message);
             }
+        }
+
+        public UserDto? GetUserByRecoveryCode(string email, string recoveryCode)
+        {
+            var allUsers = _mongo.GetAll();
+            return allUsers.FirstOrDefault(u =>
+                u.Email.ToLower() == email.ToLower() &&
+                (u.RecoveryCode1 == recoveryCode || u.RecoveryCode2 == recoveryCode));
         }
     }
 }
