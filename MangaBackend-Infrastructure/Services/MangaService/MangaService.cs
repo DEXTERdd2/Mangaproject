@@ -58,15 +58,16 @@ namespace MangaBackend_Infrastructure.Services.MangaService
 
         public ResponseModel GetFeaturedMangas()
         {
-            try
-            {
-                var featured = _manga.Find(_ => true).Limit(5).ToList();
-                return ResponseData.FoundSuccessResponse(featured);
-            }
-            catch (Exception ex)
-            {
-                return ResponseData.ErrorResponse("Error fetching featured mangas", ex.Message);
-            }
+            var featured = _manga.Find(_ => true).ToList()
+                .Select(m => new
+                {
+                    title = m.Title,
+                    description = m.Description,
+                    thumbnail = m.Thumbnail,
+                    slug = m.Slug
+                }).ToList();
+
+            return ResponseData.FoundSuccessResponse(featured);
         }
 
         public ResponseModel AddManga(MangaDto dto)
